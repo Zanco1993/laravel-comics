@@ -18,3 +18,21 @@ Route::get('/', function () {
 
     return view('comics', compact('data'));
 })->name('comics');
+
+Route::get('/characters', function () {
+    $data = config('comics');
+
+    return view('characters', compact('data'));
+})->name('characters');
+
+Route::get('/', function () {
+    $data = config('comics');
+
+    return view('comics', compact('data'));
+})->name('comics');
+
+Route::get('/movies', function () {
+    $data = config('comics');
+
+    return view('movies', compact('data'));
+})->name('movies');

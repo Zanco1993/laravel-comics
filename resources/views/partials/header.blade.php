@@ -10,16 +10,16 @@
         <img src="{{asset('img/dc-logo.png')}}" alt="">
     </div>
         <ul>
-            <li>characters</li>
-            <li>comics</li>
-            <li>movies</li>
-            <li>tv</li>
-            <li>games</li>
-            <li>collectibles</li>
-            <li>videos</li>
-            <li>fans</li>
-            <li>news</li>
-            <li>shop</li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('characters') }}">Characters</a></li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('comics') }}">comics</a></li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('movies') }}">movies</a></li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('comics') }}">tv</a></li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('comics') }}">games</a></li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('comics') }}">collectibles</a></li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('comics') }}">videos</a></li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('comics') }}">fans</a></li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('comics') }}">news</a></li>
+            <li><a class="nav-link" aria-current="page" href="{{ route('comics') }}">shop</a></li>
         </ul>
 
     <div class="search">
