@@ -20,7 +20,7 @@
 
     {{-- main-series --}}
     <div class="">
-
+        @yield('mainSeries')
     </div>
 
     {{-- other --}}

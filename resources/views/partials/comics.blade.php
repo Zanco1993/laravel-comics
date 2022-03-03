@@ -42,3 +42,24 @@
   </div>
 </div>
 @endsection
+
+@section('mainSeries')
+<div class="box-card">
+    <div class="container">
+    {{-- aggiungo un forEach per ciclare le card --}}
+    @dump($data);
+      <div class="card">
+        <div class="content-image">
+          <img src="card.thumb" alt="" />
+        </div>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="other-series">
+      <a href="#">LOAD MORE</a>
+    </div>
+  </div>
+
+@endsection
