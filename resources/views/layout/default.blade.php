@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        @yield('header-content')
+        @include('partials.header')
     </header>
 
     <div class="jumbotron">

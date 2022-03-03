@@ -1,0 +1,29 @@
+.other {
+    background-color: #0082F9;
+
+    .container {
+        height: 100px;
+        
+        .footer-info {
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            .box {
+                display: flex;
+                align-items: center;
+                
+                img {
+                    width: 50px;
+                }
+                
+                p {
+                    font-size: 15px;
+                    color: white;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

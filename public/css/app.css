@@ -12293,3 +12293,119 @@ header nav ul li:hover {
   cursor: pointer;
 }
 
+.other {
+  background-color: #0082F9;
+}
+
+.other .container {
+  height: 100px;
+}
+
+.other .container .footer-info {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.other .container .footer-info .box {
+  display: flex;
+  align-items: center;
+}
+
+.other .container .footer-info .box img {
+  width: 50px;
+}
+
+.other .container .footer-info .box p {
+  font-size: 15px;
+  color: white;
+  margin-left: 10px;
+}
+
+.container-jumbo {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  height: 300px;
+}
+
+.container-jumbo .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-jumbo .container .box-link {
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.container-jumbo .container .box-link ul {
+  list-style: none;
+  margin-right: 25px;
+}
+
+.container-jumbo .container .box-link ul .mini-title {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.container-jumbo .container .box-link ul li {
+  color: grey;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.container-jumbo .container .box-image {
+  height: 300px;
+}
+
+.container-jumbo .container .box-image img {
+  width: 450px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer-social {
+  height: 100px;
+  background-color: #2e2e2e;
+}
+
+.footer-social .container-social {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social .container-social .sign-up {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border: 2px solid #1b7cec;
+  transition: all 0.3s;
+}
+
+.footer-social .container-social .sign-up:hover {
+  background-color: #1b7cec;
+}
+
+.footer-social .container-social .follow-us {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social .container-social .follow-us p {
+  font-size: 20px;
+  color: #1b7cec;
+}
+
+.footer-social .container-social .follow-us img {
+  margin-left: 15px;
+  cursor: pointer;
+}
+

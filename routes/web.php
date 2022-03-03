@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $data = config('comics');
 
-    return view('partials.comics', compact('data'));
+    return view('comics', compact('data'));
 })->name('comics');
