@@ -47,14 +47,17 @@
 <div class="box-card">
     <div class="container">
     {{-- aggiungo un forEach per ciclare le card --}}
-    @dump($data);
-      <div class="card">
-        <div class="content-image">
-          <img src="card.thumb" alt="" />
-        </div>
-        <p></p>
-        <p></p>
+    {{-- @dump($data); --}}
+    @foreach ($data as $serie)
+    <div class="card">
+      <div class="content-image">
+        <img src="{{$serie['thumb']}}" alt="" />
       </div>
+      <p>{{$serie['series']}}</p>
+      <p></p>
+    </div>
+    
+    @endforeach
     </div>
 
     <div class="other-series">
