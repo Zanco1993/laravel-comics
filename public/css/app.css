@@ -12328,40 +12328,40 @@ header nav ul li:hover {
   height: 300px;
 }
 
-.container-jumbo .container {
+.container-jumbo .footer-link {
   display: flex;
   justify-content: space-between;
 }
 
-.container-jumbo .container .box-link {
+.container-jumbo .footer-link .box-link {
   height: 100%;
   padding-top: 20px;
   padding-left: 20px;
   display: flex;
 }
 
-.container-jumbo .container .box-link ul {
+.container-jumbo .footer-link .box-link ul {
   list-style: none;
   margin-right: 25px;
 }
 
-.container-jumbo .container .box-link ul .mini-title {
+.container-jumbo .footer-link .box-link ul .mini-title {
   color: white;
   font-size: 20px;
   margin: 10px 0;
 }
 
-.container-jumbo .container .box-link ul li {
+.container-jumbo .footer-link .box-link ul li {
   color: grey;
   font-size: 10px;
   cursor: pointer;
 }
 
-.container-jumbo .container .box-image {
+.container-jumbo .footer-link .box-image {
   height: 300px;
 }
 
-.container-jumbo .container .box-image img {
+.container-jumbo .footer-link .box-image img {
   width: 450px;
   height: 300px;
   -o-object-fit: cover;
@@ -12386,12 +12386,12 @@ header nav ul li:hover {
   text-decoration: none;
   padding: 10px;
   color: white;
-  border: 2px solid #1b7cec;
+  border: 2px solid #0082F9;
   transition: all 0.3s;
 }
 
 .footer-social .container-social .sign-up:hover {
-  background-color: #1b7cec;
+  background-color: #0082F9;
 }
 
 .footer-social .container-social .follow-us {
@@ -12401,7 +12401,7 @@ header nav ul li:hover {
 
 .footer-social .container-social .follow-us p {
   font-size: 20px;
-  color: #1b7cec;
+  color: #0082F9;
 }
 
 .footer-social .container-social .follow-us img {

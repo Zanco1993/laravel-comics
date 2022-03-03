@@ -19,16 +19,18 @@
     </div>
 
     {{-- main-series --}}
-    <div class="">
+    <div>
         @yield('mainSeries')
     </div>
 
     {{-- other --}}
-    <div class="">
-
+    <div class="other">
+        @yield('other')
     </div>
 
     <footer>
+        @yield('footer-link')
+        @yield('footer-social')
 
     </footer>
 
