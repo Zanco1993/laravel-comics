@@ -1,0 +1,44 @@
+header {
+    height: 50px;
+    border: 1px solid black;
+    background-color: #0082F9;
+    .up-header {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        span {
+            margin-left: 50px;
+            color: white;
+        }
+        
+
+    }
+
+    nav {
+        border: 1px solid black;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+            ul {
+                list-style: none;
+                display: flex;
+                
+                
+                li {
+                    margin-right: 10px;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    text-transform: uppercase;
+                    
+                    &:hover {
+                        color: #0082F9;
+                        box-shadow: inset 0 -3px 0 #0082F9;
+                    }
+                }
+            }
+        
+    }
+}

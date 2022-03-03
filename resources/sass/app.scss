@@ -1,1 +1,9 @@
 //
+@import "~bootstrap/scss/bootstrap";
+
+// importo i miei file scss
+@import "./partials/header";
+@import "./partials/jumbotron";
+@import "./partials/mainSeries";
+@import "./partials/other";
+@import "./partials/footer";
