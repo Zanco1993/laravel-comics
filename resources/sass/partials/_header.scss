@@ -1,22 +1,25 @@
 header {
-    height: 50px;
-    border: 1px solid black;
-    background-color: #0082F9;
+
     .up-header {
-        height: 100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        span {
-            margin-left: 50px;
-            color: white;
+        background-color: #0082F9;
+        height: 50px;
+        .container {
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            span {
+                margin-left: 50px;
+                color: white;
+            }
         }
+        
         
 
     }
 
     nav {
-        border: 1px solid black;
         height: 150px;
         display: flex;
         justify-content: space-between;

@@ -15,7 +15,7 @@
     </header>
 
     <div class="jumbotron">
-
+        @yield('jumbo')
     </div>
 
     {{-- main-series --}}

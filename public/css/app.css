@@ -12173,26 +12173,24 @@ fieldset:disabled .btn {
   }
 }
 
-header {
-  height: 50px;
-  border: 1px solid black;
+header .up-header {
   background-color: #0082F9;
+  height: 50px;
 }
 
-header .up-header {
+header .up-header .container {
   height: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-header .up-header span {
+header .up-header .container span {
   margin-left: 50px;
   color: white;
 }
 
 header nav {
-  border: 1px solid black;
   height: 150px;
   display: flex;
   justify-content: space-between;
@@ -12214,5 +12212,32 @@ header nav ul li {
 header nav ul li:hover {
   color: #0082F9;
   box-shadow: inset 0 -3px 0 #0082F9;
+}
+
+.jumbotron {
+  height: 500px;
+  border: 1px solid black;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+}
+
+.jumbotron .container {
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.jumbotron .container .current-series {
+  width: 200px;
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+}
+
+.jumbotron .container .current-series p {
+  text-align: center;
+  padding: 10px;
+  background-color: #0082F9;
+  color: white;
 }
 

@@ -4,15 +4,17 @@
 
 {{-- contenuto di header --}}
 @section('header-content')
-    <div class="up-header container">
-        <span>DC POWER VISA</span>
-        <span>ADDITIONAL DC SITES</span>
+    <div class="up-header">
+        <div class="container">
+            <span>DC POWER VISA</span>
+            <span>ADDITIONAL DC SITES</span>
+
+        </div>
     </div>
     <nav class="container">
         <div class="logo">
             <img src="{{asset('img/dc-logo.png')}}" alt="">
         </div>
-        <div class="link">
             <ul>
                 <li>characters</li>
                 <li>comics</li>
@@ -25,10 +27,18 @@
                 <li>news</li>
                 <li>shop</li>
             </ul>
-        </div>
 
         <div class="search">
             <input type="text" placeholder="Search">
         </div>
     </nav>
+@endsection
+
+@section('jumbo')
+<div class="container">
+    <div class="current-series">
+      <p>CURRENT SERIES</p>
+    </div>
+  </div>
+</div>
 @endsection
